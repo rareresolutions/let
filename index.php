@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic GuestBook By the Wheelchair Guy</title>
     <link rel="stylesheet" href="./css/main.css">
+    <script>
+     if ( window.history.replaceState ) {
+  window.history.replaceState( null, null, window.location.href );
+}
+</script>
 </head>
 <body>
 <div class="top">
