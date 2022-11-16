@@ -46,7 +46,7 @@ Then go to sleep on heaps of treasure. They’ve no use for the written word.</l
                 $q5 = $_POST['question5'];
            //}
                 
-                     $file = fopen("comment.html","a");
+                     $file = fopen("./api/comment.html","a");
                      fwrite($file, "<div class='gb'>
                      Dear&nbsp;".$fname."<br>
                      Most dragons don’t know how to read. They hiss and fume and guard their hoard. A tasty knight is what they need&nbsp;"
@@ -58,7 +58,7 @@ Then go to sleep on heaps of treasure. They’ve no use for the written word.</l
                      fclose($file);
                     }
             
-               require("comment.html");
+               require("./api/comment.html");
 ?>
 </div>
 
